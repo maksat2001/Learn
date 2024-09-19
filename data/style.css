@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    width: 100vw;
+    margin: 5px 0;
+}
+
+.navbar_container{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    margin: 0;
+    height: 80px;
+    background-image: linear-gradient(to right, rgb(11, 11, 172), rgb(52, 49, 238), rgb(11, 11, 172));
+    justify-content: space-between;
+}
+
+.navbar_items{
+    display: flex;
+    gap: 40px;
+}
+
+.logo_container img{
+    width: 70px;
+}
+
+.navbar_items a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.3s
+}
+
+.navbar_items a:active{
+    color: rgb(209, 209, 209);
+}
+
+.navbar_items a:hover{
+    color: rgb(209, 209, 209);
+}
+
+.background_image{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    z-index: -1;
+}
+
+.content{
+    color: rgb(11, 11, 172);
+    font-weight: 800;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.book_cover{
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.book{
+    width: 230px;
+    border-radius: 10px;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.book:hover{
+    transform: scale(0.97);
+}
+
+.content_name{
+    text-align: center;
+    color: rgb(11, 11, 172);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+}

@@ -1,0 +1,59 @@
+.book_name{
+    font-family: Poynter,Georgia,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 16px;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .04388rem;
+    color: #000!important;
+    text-align: center;
+    margin: 7px 0 10px;
+}
+
+.book_name:hover{
+    text-decoration: #000 underline;
+}
+
+.book_author{
+    width: 100%;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: .034rem;
+    text-align: center;
+    color: #21282d!important;
+    margin-top: 0.307929rem;
+    text-decoration: underline;
+}
+
+.book_image{
+    border: rgb(197, 196, 196) solid 0.3px;
+    width: 165px;
+    height: 200px;
+}
+
+.book_card{
+    width: 165px;
+    border-radius: 10px;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.book_card:hover{
+    transform: scale(0.97);
+}
+
+.book_card_container{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 auto;
+    gap: 70px;
+}
